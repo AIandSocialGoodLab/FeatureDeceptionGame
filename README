@@ -1,0 +1,17 @@
+This package contains the code needed to get the data for each figure in the paper, including those in the appendix.
+The folders are named by their corresponding figures.
+Folder 1ksmall contains the experiments for Fig 1k with training data size <= 2040.
+Folder 1kbig contains the experiments for Fig 1k with training data size >= 10000.
+
+To run the experiments, navigate to the corresponding folder, and run test.py.
+
+The code assumes the following dependencies.
+
+- Python 3.6
+- Numpy 1.15.4
+- Pytorch 1.0.0
+- pyomo 5.5.1
+- matplotlib 2.2.2
+
+- IBM CPLEX 12.8 and docplex 2.8.125
+- IPOPT and HSL MA27 solver
